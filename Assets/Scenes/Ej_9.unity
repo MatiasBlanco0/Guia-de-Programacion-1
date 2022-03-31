@@ -190,6 +190,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 771622783}
+  - component: {fileID: 771622784}
   m_Layer: 0
   m_Name: ' CONTROLADOR DE SCRIPTS'
   m_TagString: Untagged
@@ -211,6 +212,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &771622784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771622782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328aa5fc7ae6e2a469aa9a2096a35b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombre1: Jorge
+  nombre2: Roberto
+  nombre3: Mauricio
+  aporte1: 20
+  aporte2: 30
+  aporte3: 50
 --- !u!1 &1941161253
 GameObject:
   m_ObjectHideFlags: 0
