@@ -15,24 +15,24 @@ public class Ej9 : MonoBehaviour
     public string nombre1;
     public string nombre2;
     public string nombre3;
-    public int aporte1;
-    public int aporte2;
-    public int aporte3;
-    float porcentaje1 = 0;
-    float porcentaje2 = 0;
-    float porcentaje3 = 0;
-    int montoT = 0;
+    public float aporte1;
+    public float aporte2;
+    public float aporte3;
+    float porcentaje1;
+    float porcentaje2;
+    float porcentaje3;
+    float montoT;
 
     // Start is called before the first frame update
     void Start()
     {
         montoT = aporte1 + aporte2 + aporte3;
-        porcentaje1 = montoT / 100 * aporte1;
-        porcentaje2 = montoT / 100 * aporte2;
-        porcentaje3 = montoT / 100 * aporte3;
-        Debug.Log(nombre1 + ": \nCapital aportado: $" + aporte1 + ", \nPorcentaje del capital: " + porcentaje1 + "%, Monto total aportado: $" + montoT);
-        Debug.Log(nombre2 + ": \nCapital aportado: $" + aporte2 + ", \nPorcentaje del capital: " + porcentaje2 + "%, Monto total aportado: $" + montoT);
-        Debug.Log(nombre3 + ": \nCapital aportado: $" + aporte3 + ", \nPorcentaje del capital: " + porcentaje3 + "%, Monto total aportado: $" + montoT);
+        porcentaje1 = (aporte1 / montoT) * 100;
+        porcentaje2 = (aporte2 / montoT) * 100;
+        porcentaje3 = (aporte3 / montoT) * 100;
+        Debug.Log(nombre1 + ": \nCapital aportado: $" + aporte1 + ", Porcentaje del capital: " + porcentaje1 + "%, Monto total aportado: $" + montoT);
+        Debug.Log(nombre2 + ": \nCapital aportado: $" + aporte2 + ", Porcentaje del capital: " + porcentaje2 + "%, Monto total aportado: $" + montoT);
+        Debug.Log(nombre3 + ": \nCapital aportado: $" + aporte3 + ", Porcentaje del capital: " + porcentaje3 + "%, Monto total aportado: $" + montoT);
     }
 
     // Update is called once per frame
