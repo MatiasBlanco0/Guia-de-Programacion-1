@@ -15,13 +15,13 @@ public class Ej9 : MonoBehaviour
     public string nombre1;
     public string nombre2;
     public string nombre3;
-    public float aporte1;
-    public float aporte2;
-    public float aporte3;
-    float porcentaje1;
-    float porcentaje2;
-    float porcentaje3;
-    float montoT;
+    public int aporte1;
+    public int aporte2;
+    public int aporte3;
+    int porcentaje1;
+    int porcentaje2;
+    int porcentaje3;
+    int montoT;
 
     // Start is called before the first frame update
     void Start()
