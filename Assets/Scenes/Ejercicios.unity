@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2d3fd68245cd74fb7471c91bb918eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horas: 41
 --- !u!1 &312019429
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,6 +777,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aea3fafde8b320641b93d0eab1672e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tipoOperacion: 97
+  num1: 2
+  num2: 1
 --- !u!1 &1946702253
 GameObject:
   m_ObjectHideFlags: 0
