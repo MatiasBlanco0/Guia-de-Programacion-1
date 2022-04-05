@@ -284,6 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299c56d3bfa66794391f896b8aabc1c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horaActual: 15
 --- !u!1 &481929673
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,12 +498,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 328aa5fc7ae6e2a469aa9a2096a35b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombre1: 
-  nombre2: 
-  nombre3: 
-  aporte1: 0
-  aporte2: 0
-  aporte3: 0
+  nombre1: Jorge
+  nombre2: Roberto
+  nombre3: Marcelo
+  aporte1: 10
+  aporte2: 10
+  aporte3: 10
 --- !u!1 &1296105535
 GameObject:
   m_ObjectHideFlags: 0
