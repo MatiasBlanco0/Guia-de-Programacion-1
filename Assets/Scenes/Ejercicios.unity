@@ -241,6 +241,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba26a99f481ad7749a1f53643650ccba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fechaCompra: 20220101
+  nombreComprador: Manuel
+  nombreProducto: microondas
+  cantidadProducto: 1
+  precioProducto: 2000
 --- !u!1 &379171806
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +641,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b961ae0237f59c049b3afbf5f9ebfdfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  num1: 6
+  num2: 6
+  num3: 6
 --- !u!1 &1604598036
 GameObject:
   m_ObjectHideFlags: 0
