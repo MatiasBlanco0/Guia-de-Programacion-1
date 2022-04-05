@@ -16,10 +16,29 @@ public class Ej10 : MonoBehaviour
     //menor a 0 o mayor a 24, mostrar el mensaje: “Ha ingresado una hora incorrecta”
     const int HORA_APERTURA = 10;
     const int HORA_CIERRE = 18;
+    public int horaActual = 0;
+    bool estaAbierto;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (horaActual <= 24 || horaActual >= 0)
+        {
+            if (horaActual >= HORA_APERTURA && horaActual <= HORA_CIERRE)
+            {
+                estaAbierto = true;
+                Debug.Log("El estacionamiento esta abierto");
+            }
+            else
+            {
+                estaAbierto = false;
+                Debug.Log("El estacionamiento esta cerrado");
+            }
+        }
+        else
+        {
+            Debug.Log("Ha ingresado una hora incorrecta");
+        }
+
     }
 
     // Update is called once per frame
