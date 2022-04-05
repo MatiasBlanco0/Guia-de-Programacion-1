@@ -21,7 +21,7 @@ public class Ej10 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (horaActual <= 24 || horaActual >= 0)
+        if (horaActual <= 24 && horaActual >= 0)
         {
             if (horaActual >= HORA_APERTURA && horaActual <= HORA_CIERRE)
             {
