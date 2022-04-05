@@ -12,12 +12,12 @@ public class Ej9 : MonoBehaviour
     //mostrar lo pedido en el siguiente formato:
     //Nombre: capital aportado: $ … , Porcentaje del capital: %.... , Monto total aportado: $ ….
 
-    public string nombre1;
-    public string nombre2;
-    public string nombre3;
-    public int aporte1;
-    public int aporte2;
-    public int aporte3;
+    public string nombre1 = "Jorge";
+    public string nombre2 = "Roberto";
+    public string nombre3 = "Marcelo";
+    public int aporte1 = 10;
+    public int aporte2 = 10;
+    public int aporte3 = 10;
     int porcentaje1;
     int porcentaje2;
     int porcentaje3;
