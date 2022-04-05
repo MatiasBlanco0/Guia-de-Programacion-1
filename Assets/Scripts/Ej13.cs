@@ -25,7 +25,7 @@ public class Ej13 : MonoBehaviour
         {
             salarioTotal = horas * 16;
         }
-        Debug.Log("Su salario semanal es: " + salarioTotal);
+        Debug.Log("Su salario semanal es: $" + salarioTotal);
     }
 
     // Update is called once per frame
