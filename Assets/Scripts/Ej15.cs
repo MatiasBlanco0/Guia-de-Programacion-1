@@ -39,19 +39,19 @@ public class Ej15 : MonoBehaviour
             estaEnNinguno = true;
         }
 
-        if (estaEnA)
-        {
-            Debug.Log("El numero " + num + " esta en el conjunto A");
-        }
-        if (estaEnB)
-        {
-            Debug.Log("El numero " + num + " esta en el conjunto B");
-        }
         if (estaEnAmbos)
         {
             Debug.Log("El numero " + num + " esta en los dos conjuntos");
         }
-        if (estaEnNinguno)
+        else if (estaEnA)
+        {
+            Debug.Log("El numero " + num + " esta en el conjunto A");
+        }
+        else if (estaEnB)
+        {
+            Debug.Log("El numero " + num + " esta en el conjunto B");
+        }
+        else
         {
             Debug.Log("El numero " + num + " no esta en ningun conjunto");
         }
